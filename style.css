@@ -1,0 +1,17 @@
+fieldset {
+    display: flex;
+    border-color: white;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin-right: 40px;
+}
