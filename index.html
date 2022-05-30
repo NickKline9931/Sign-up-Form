@@ -4,54 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link rel="stylesheet" href="style.css">    </link>
+    <title>Sign-up Form</title>
+<link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-<h3>This is not a real online service! You know you need something
-    like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started    </h3>
-    <h3>You <em>know</em> you want to.</h3>
-    
-    <h2>Let's do this!</h2>
-    <form action="example.com" method="post">
-        
+<img id="eagle" src="eagle1.jpg">
+<div id="words">
+<h3 id="title1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h3>
+<h3>You <em>know</em> you want to.</h3>
+
+<h2>Let's do this!</h2>
+<form>
 <fieldset>
-<div class="help">
-    <label for="firstname">First Name:</label>
-    <input type="text" id="firstname">    
-</div>
+<label for="first_name">First Name:</label>
+<input type="text" id="first_name" name="first_name"></input>
 
-<div class="help">
-    <label for="lastname">Last Name:</label>
-    <input type="text" id="lastname">
-</div>
-</fieldset>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"></input>
 
-<fieldset>
-<div class="help">
-    <label for="email">Email:</label>
-    <input type="email" id="email"></input>
-</div>
-<div class="help">
-    <label for="phone">Phone Number:</label>
-    <input type="number" id="phone"></input>
-</div>
-</fieldset>
-
-<fieldset>
-    <div class="help">
-    <label for="password">Password:</label>
-    <input type="password" id="password"></input>
-    </div>
-    <div class="help">
-    <label for="confirmpassword">Confirm Password:</label>
-    <input type="password" id="confirmpassword"></input>
-    </div>
-</fieldset>
-
+<label for="password">Password:</label>
+<input type="password" id="password" name="password"></input>
 <button type="submit">Create Account</button>
-<h4>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Sign in</a></h4>
-</form>
+<h4>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Sign in.</a></h4>
+</fieldset>
 
+<fieldset>
+<label for="last_name">Last Name:</label>
+<input type="text" id="last_name" name="last_name"></input>
+
+<label for="phone">Phone Number:</label>
+<input type="number" id="phone" name="phone"></input>
+
+<label for="confirm_password">Confirm Password:</label>
+<input type="password" id="confirm_password" name="password"></input>
+</fieldset>
+</form>
+</div>
 </body>
 </html>
