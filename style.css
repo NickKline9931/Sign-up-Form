@@ -1,17 +1,51 @@
+
+
+#eagle {
+    position: absolute;
+    top: -1700px;
+    left: 0;
+}
+
+#words {
+    position: absolute;
+    left: 550px; 
+    width: 32rem;
+}
+
 fieldset {
     display: flex;
-    border-color: white;
+    flex-direction: column;
+    position: relative;
+    left: -200px;
+    border: 0;
 }
 
 label {
-    display: inline-block;
-    text-align: left;
+  display: flex;
+  
+  text-align: right;
+  width: 250px;
 }
 
-.help {
+form {
     display: flex;
-    flex-direction: column;
+    position: absolute;
+    right: -230px;
+    margin-right: 0;
 }
-input {
-    margin-right: 40px;
+
+body {
+    overflow: hidden;
+}
+
+button {
+    position: absolute;
+    bottom: -20px;
+    margin: 0;
+}
+
+h4 {
+position: absolute;
+bottom: -50px;
+margin: 0;
 }
