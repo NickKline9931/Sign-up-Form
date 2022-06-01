@@ -98,6 +98,15 @@ input {
     left: 220px;
     top: 160px;
     color: white;
-    font-size: 120px;;
+    font-size: 120px;
     z-index: 2;
+}
+
+input:focus {
+    border: 3px solid blue;
+    box-shadow: 1px;
+}
+
+input:not(:placeholder-shown):invalid {
+    border: 3px solid rgb(211, 6, 6);
 }
