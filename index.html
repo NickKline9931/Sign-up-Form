@@ -6,39 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
 <link rel="stylesheet" href="style.css"></link>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
 </head>
 <body>
+<div id="images">
 <img id="eagle" src="eagle1.jpg">
+<div id="odindiv">
+</div>
+<img id="odin" src="odin-lined (1).png">
+<h1 id="logo">ODIN</h1>
+</div>
 <div id="words">
 <h3 id="title1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h3>
 <h3>You <em>know</em> you want to.</h3>
 
 <h2>Let's do this!</h2>
 <form>
+<div id="inputs">
 <fieldset>
 <label for="first_name">First Name:</label>
-<input type="text" id="first_name" name="first_name"></input>
+<input type="text" id="first_name" name="first_name" required></input>
 
 <label for="email">Email:</label>
-<input type="email" id="email" name="email"></input>
+<input type="email" id="email" name="email" required></input>
 
 <label for="password">Password:</label>
-<input type="password" id="password" name="password"></input>
-<button type="submit">Create Account</button>
-<h4>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Sign in.</a></h4>
+<input type="password" id="password" name="password" required></input>
 </fieldset>
 
 <fieldset>
 <label for="last_name">Last Name:</label>
-<input type="text" id="last_name" name="last_name"></input>
+<input type="text" id="last_name" name="last_name" required></input>
 
 <label for="phone">Phone Number:</label>
-<input type="number" id="phone" name="phone"></input>
+<input type="number" id="phone" name="phone" required></input>
 
 <label for="confirm_password">Confirm Password:</label>
-<input type="password" id="confirm_password" name="password"></input>
+<input type="password" id="confirm_password" name="password" required></input>
 </fieldset>
+</div>
 </form>
+<button type="submit">Create Account</button>
+<p>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Sign in.</a></p>
 </div>
 </body>
 </html>
