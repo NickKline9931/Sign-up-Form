@@ -2,13 +2,40 @@
 
 #eagle {
     position: absolute;
+    z-index: 0;
     top: -1700px;
     left: 0;
 }
 
+#odindiv {
+    position: absolute;
+    z-index: 1;
+    top: 220px;
+    right: 865px;
+    background-color: black;
+    opacity: .3;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    height: 180px;
+    width: 503px;
+    z-index: 1;
+}
+
+#odin {
+    height: 150px;
+    width:auto;
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
+    z-index: 2;
+    opacity: .9;
+}
 #words {
     position: absolute;
     left: 550px; 
+    
     width: 32rem;
 }
 
@@ -39,7 +66,7 @@ label {
 }
 
 body {
-    overflow: hidden;
+   overflow: hidden;
 }
 
 button {
@@ -63,4 +90,14 @@ left: -15px;
 
 input {
     margin-bottom: 5px;
+}
+
+#logo {
+    font-family: 'Blaka', sans-serif;
+    position: absolute;
+    left: 220px;
+    top: 160px;
+    color: white;
+    font-size: 120px;;
+    z-index: 2;
 }
