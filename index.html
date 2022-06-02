@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+<script src="script.js"></script>
 </head>
 <body>
 <div id="images">
@@ -33,7 +34,7 @@
 <input type="email" id="email" name="email" required placeholder="email@website.com"></input>
 
 <label for="password">Password:</label>
-<input type="password" id="password" name="password" required placeholder=" "></input>
+<input type="password" id="password" name="password" required placeholder=" " minlength="8"></input>
 </fieldset>
 
 <fieldset>
@@ -47,7 +48,7 @@
 <input type="password" id="confirm_password" name="password" required placeholder=" "></input>
 </fieldset>
 </div>
-<button type="submit">Create Account</button>
+<button type="submit" onclick="check_password()">Create Account</button>
 </form>
 <p>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Sign in.</a></p>
 </div>
