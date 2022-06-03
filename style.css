@@ -108,3 +108,12 @@ input:focus {
 input:not(:placeholder-shown):invalid {
     border: 3px solid rgb(211, 6, 6);
 }
+
+#credit {
+    z-index: 3;
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
